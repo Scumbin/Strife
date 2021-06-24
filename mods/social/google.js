@@ -5,7 +5,7 @@ module.exports = {
 	usage: "{c} [thing to search]",
 	category: "Google",
 	executor(args) {
-		let result = encodeURIComponent(args)
+		let result = encodeURIComponent(args.join(" "))
 			.replace(/'/g, "%27")
 			.replace(/"/g, "%22");
 		return {
