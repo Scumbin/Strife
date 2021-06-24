@@ -7,6 +7,5 @@ module.exports = {
 			console.log("Granted premium status");
 			return true;
 		};
-		console.log(getModule(["isSpotifyPremium"], false).isSpotifyPremium());
 	},
 };
