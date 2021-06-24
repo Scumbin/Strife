@@ -10,7 +10,7 @@ module.exports = {
 			.replace(/"/g, "%22");
 		return {
 			send: true,
-			result: `<https://lmgtfy.com/?${result}>`,
+			result: `https://google.com/?q=${result}`,
 		};
 	},
 };
