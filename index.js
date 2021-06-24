@@ -1,4 +1,4 @@
-const { Plugin } = require("powercord / entities");
+const { Plugin } = require("powercord/entities");
 const spotify = require("./mods/spotify/premfree");
 
 const getModule = require("powercord/webpack");
