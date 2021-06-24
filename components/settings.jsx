@@ -10,7 +10,7 @@ module.exports = class Settings extends React.Component {
 					note={
 						<span>
 							This setting forces spotify premium for the spotify plugin.
-							<b style={{ color: "rgb(240, 71, 71)" }}>WARNING:</b> This only
+							<b style={{ color: "rgb(240, 71, 71)" }}> WARNING:</b> This only
 							works because spotify lets discord do this shit. It violates
 							spotify TOS (Not like you care - given your using powercord ;)
 						</span>

@@ -1,5 +1,5 @@
 module.exports = {
-	command: "google",
+	command: "ugoogle",
 	description:
 		"send a google link (LMGTFY but you want to keep your friendship)",
 	usage: "{c} [thing to search]",
@@ -10,7 +10,7 @@ module.exports = {
 			.replace(/"/g, "%22");
 		return {
 			send: true,
-			result: `<https://google.com/search?q=${result}>`,
+			result: `<https://google.com/?q=${result}>`,
 		};
 	},
 };
