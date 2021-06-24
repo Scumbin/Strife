@@ -4,8 +4,9 @@ module.exports = {
 			["isSpotifyPremium"],
 			false
 		).isSpotifyPremium = () => {
+			console.log("Granted premium status");
 			return true;
 		};
-		console.log("if you're reading this it worked");
+		console.log(getModule(["isSpotifyPremium"], false).isSpotifyPremium());
 	},
 };
